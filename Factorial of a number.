@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class FactorialDemo
+{
+publicstaticvoidmain(String args[])
+{
+Scanner scanner= newScanner(System.in);
+System.out.println("Enter the number:");
+int num= scanner.nextInt();
+int factorial= fact(num);
+System.out.println("Factorial of entered number is: "+factorial);
+}
+static intfact(intn){intoutput;if(n==1)
+{
+return1;
+}
+output= fact(n-1)* n;
+return output;
+}
+}
