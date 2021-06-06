@@ -1,0 +1,9 @@
+publicclassQuotientAndRemainder
+{publicstaticvoidmain(String[] args) 
+{
+intnumber1= 150, number2= 20;
+intquotient= number1/ number2;
+intremainder= number1% number2;
+System.out.println("Quotient is: "+ quotient);
+System.out.println("Remainder is: "+ remainder);
+}
