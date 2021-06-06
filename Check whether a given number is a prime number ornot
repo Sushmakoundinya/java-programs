@@ -1,0 +1,24 @@
+importjava.util.Scanner;
+class PrimeCheck
+{
+publicstaticvoidmain(String args[])
+{
+inttemp;booleanisPrime=true;
+Scanner scan= newScanner(System.in);
+System.out.println("Enter any number:")
+intnum=scan.nextInt();
+scan.close();
+for(inti=2;i<=num/2;i++)
+{
+temp=num%i;
+if(temp==0)
+{
+isPrime=false;break;
+}
+}
+if
+(isPrime)System.out.println(num+ " is a Prime Number");
+else
+System.out.println(num+ " is not a Prime Number");
+}
+}
