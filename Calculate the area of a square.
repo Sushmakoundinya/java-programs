@@ -1,0 +1,12 @@
+importjava.util.Scanner;
+class SquareAreaDemo
+{
+publicstaticvoidmain (String[] args)
+{
+System.out.println("Enter Side of Square:");
+Scanner scanner= newScanner(System.in);
+double side= scanner.nextDouble();
+double area= side*side;
+System.out.println("Area of Square is: "+area);
+}
+}
